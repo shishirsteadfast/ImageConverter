@@ -1,0 +1,26 @@
+{
+    "name": "jeishanul/image-converter",
+    "description": "A PHP package to convert images between various formats while maintaining quality.",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-imagick": "*",
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeishanul\\ImageConverter\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeishanul Haque (https://github.com/jeishanul)",
+            "email": "support@jeishanul.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
