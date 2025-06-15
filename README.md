@@ -8,9 +8,8 @@ A PHP Composer package to convert images between various formats while maintaini
 
 Install via [Composer](https://getcomposer.org/):
 
-\`\`\`bash
+```
 composer require jeishanul/image-converter
-\`\`\`
 
 ### PHP Extensions Required
 
