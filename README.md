@@ -10,6 +10,7 @@ Install via [Composer](https://getcomposer.org/):
 
 ```
 composer require jeishanul/image-converter
+```
 
 ### PHP Extensions Required
 
