@@ -25,11 +25,9 @@ composer require jeishanul/image-converter
 
 ### ✅ Input Formats
 
-\`\`\`
 BMP, JPEG, JPG, PNG, GIF, TIFF, TIF, WebP, HEIC, HEIF, PSD, ICO,
 SVG, AI, EPS, PDF, RAW, CR2, NEF, ARW, DNG, RW2, ORF, PEF, SRF,
 SR2, EXR, DDS, APNG, JFIF, AVIF
-\`\`\`
 
 ### ✅ Output Formats
 
@@ -43,7 +41,9 @@ Same as input formats (depending on support by Imagick or GD).
 
 Automatically converts and saves the image with the same filename and new extension:
 
-\`\`\`php
+```
+<?php
+
 use Jeishanul\ImageConverter\ImageConverter;
 
 try {
@@ -52,7 +52,7 @@ try {
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage() . "\n";
 }
-\`\`\`
+```
 
 ---
 
@@ -60,7 +60,9 @@ try {
 
 Control output path and quality (0–100):
 
-\`\`\`php
+```
+<?php
+
 use Jeishanul\ImageConverter\ImageConverter;
 
 try {
@@ -76,7 +78,7 @@ try {
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage() . "\n";
 }
-\`\`\`
+```
 
 ---
 
